@@ -49,6 +49,7 @@ return require('packer').startup(function(use)
   use {'mg979/vim-visual-multi'}
 
   use 'tpope/vim-fugitive'
+  use { "catppuccin/nvim", as = "catppuccin" }
 
   -- use 'goerz/jupytext.vim'
 
