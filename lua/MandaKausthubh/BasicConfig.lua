@@ -16,3 +16,11 @@ vim.opt.expandtab = true
 vim.opt.relativenumber = true
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
+
+local nnoremap = function(lhs, rhs)
+    vim.api.nvim_set_keymap('n', lhs, rhs, { noremap = true, silent = true })
+end
+
+
+nnoremap("<C-d>", "<C-d>zz");
+nnoremap("<C-u>", "<C-u>zz");
