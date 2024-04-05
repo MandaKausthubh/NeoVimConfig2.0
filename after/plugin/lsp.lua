@@ -1,7 +1,7 @@
 require("mason").setup()
 
 require("mason-lspconfig").setup({
-  ensure_installed = { "lua_ls", "jdtls", "pyright", "clangd", "java_language_server", "quick_lint_js", "vtsls"}
+  ensure_installed = { "lua_ls", "jdtls", "pyright", "clangd", "java_language_server", "quick_lint_js", "vtsls", "sqlls", "sqls"}
 })
 
 local on_attach = function (_, bufnr)
@@ -55,3 +55,10 @@ require("lspconfig").vtsls.setup {
     on_attach = on_attach
 }
 
+require("lspconfig").sqlls.setup {
+    on_attach = on_attach
+}
+
+require("lspconfig").sqls.setup {
+    on_attach = on_attach
+}

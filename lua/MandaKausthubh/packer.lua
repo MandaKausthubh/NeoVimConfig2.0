@@ -52,5 +52,6 @@ return require('packer').startup(function(use)
   use { "catppuccin/nvim", as = "catppuccin" }
 
   -- use 'goerz/jupytext.vim'
+  use 'ThePrimeagen/vim-be-good'
 
 end)
