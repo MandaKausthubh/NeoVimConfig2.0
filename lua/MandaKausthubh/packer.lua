@@ -54,4 +54,6 @@ return require('packer').startup(function(use)
   -- use 'goerz/jupytext.vim'
   use 'ThePrimeagen/vim-be-good'
 
+  use "sindrets/diffview.nvim"
+
 end)
