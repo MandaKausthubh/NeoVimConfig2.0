@@ -16,12 +16,14 @@ vim.opt.expandtab = true
 vim.opt.relativenumber = true
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
-vim.keymap.set('n', '<C-l>', ":'<,'>!xclip -f -sel clip<CR>")
+vim.keymap.set('v', '<C-l>', ":'<,'>!xclip -f -sel clip<CR>")
 
 local nnoremap = function(lhs, rhs)
     vim.api.nvim_set_keymap('n', lhs, rhs, { noremap = true, silent = true })
 end
 
+
+-- Hello I am able to copy and paste!!
 
 nnoremap("<C-d>", "<C-d>zz");
 nnoremap("<C-u>", "<C-u>zz");
