@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/mandakausthubh/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
+  ["iron.nvim"] = {
+    loaded = true,
+    path = "/home/mandakausthubh/.local/share/nvim/site/pack/packer/start/iron.nvim",
+    url = "https://github.com/Vigemus/iron.nvim"
+  },
   kanagawa = {
     loaded = true,
     path = "/home/mandakausthubh/.local/share/nvim/site/pack/packer/start/kanagawa",
