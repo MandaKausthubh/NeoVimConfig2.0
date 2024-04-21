@@ -17,6 +17,9 @@ vim.opt.relativenumber = true
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.keymap.set('v', '<C-l>', ":'<,'>!xclip -f -sel clip<CR>")
+vim.keymap.set('n', '<C-t>n', ':tabnext<CR>')
+vim.keymap.set('n', '<C-t>p', ':tabprevious<CR>')
+vim.keymap.set('n', '<C-t>t', ':tabnew<CR>')
 
 local nnoremap = function(lhs, rhs)
     vim.api.nvim_set_keymap('n', lhs, rhs, { noremap = true, silent = true })
