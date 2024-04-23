@@ -56,4 +56,6 @@ return require('packer').startup(function(use)
 
   use "sindrets/diffview.nvim"
   use {'Vigemus/iron.nvim'}
+
+  use {'goolord/alpha-nvim'}
 end)

@@ -1,3 +1,3 @@
 -- require("MandaKausthubh")
 require("MandaKausthubh")
-print("hello world\n")
+-- print("hello world\n")
