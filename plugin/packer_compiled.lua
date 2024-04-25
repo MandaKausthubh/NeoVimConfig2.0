@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/mandakausthubh/.local/share/nvim/site/pack/packer/start/alpha-nvim",
     url = "https://github.com/goolord/alpha-nvim"
   },
+  ["barbar.nvim"] = {
+    loaded = true,
+    path = "/home/mandakausthubh/.local/share/nvim/site/pack/packer/start/barbar.nvim",
+    url = "https://github.com/romgrk/barbar.nvim"
+  },
   catppuccin = {
     loaded = true,
     path = "/home/mandakausthubh/.local/share/nvim/site/pack/packer/start/catppuccin",
@@ -113,6 +118,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mandakausthubh/.local/share/nvim/site/pack/packer/start/diffview.nvim",
     url = "https://github.com/sindrets/diffview.nvim"
+  },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/home/mandakausthubh/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   harpoon = {
     loaded = true,
