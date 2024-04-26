@@ -32,3 +32,5 @@ end
 nnoremap("<C-d>", "<C-d>zz");
 nnoremap("<C-u>", "<C-u>zz");
 
+vim.keymap.set('n', '<leader>tmpcp', ':0r templates/CompetitiveProgramming.cpp<CR>')
+vim.keymap.set('n', '<leader>tmpcc', ':0r templates/main.c<CR>')
